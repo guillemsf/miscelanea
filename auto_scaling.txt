@@ -1,0 +1,14 @@
+AutoScaling Group
+	* 1 trigger
+		* 2 Alarms
+		* 2 Scaling policies
+
+Check for alarms
+	mon-describe-alarms
+
+Check for policies
+	as-describe-policies -g prod-group
+
+Create/Update policies
+	as-put-scaling-policy scale-up -g prod-group -t ChangeInCapacity --adjustment=3 --cooldown=60
+
