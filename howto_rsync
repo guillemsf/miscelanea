@@ -4,4 +4,4 @@ rsync --recursive --progress /tmp/bbva/ root@bbva:/shared/hosts/actibva/images/
 
 rsync --recursive --progress -avz -e "ssh -i /root/.ec2/wslkeys-us.pem" ubuntu@ec2-184-73-232-12.compute-1.amazonaws.com:/shared/hosts/motorpasion_pt/ /shared/hosts/motorpasion_pt_eu/
 
-rsync --recursive --progress -avz -e "ssh -i design_test.pem" bitnami@ec2-46-51-148-89.eu-west-1.compute.amazonaws.com:apps/wordpress/htdocs/wp-content/themes/ciudadano00/style.css /shared/wordpress/ciudadano00/wp-content/themes/ciudadano00/style.css
+rsync --recursive --progress -avz -e "ssh -i design_test.pem" ***nami@ec2-46-51-148-89.eu-west-1.compute.amazonaws.com:apps/wordpress/htdocs/wp-content/themes/ciudadano00/style.css /shared/wordpress/ciudadano00/wp-content/themes/ciudadano00/style.css
