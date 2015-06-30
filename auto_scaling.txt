@@ -12,3 +12,4 @@ Check for policies
 Create/Update policies
 	as-put-scaling-policy scale-up -g prod-group -t ChangeInCapacity --adjustment=3 --cooldown=60
 
+Added new line
